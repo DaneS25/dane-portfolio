@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
 .App {
   text-align: center;
   position: relative;
@@ -15,5 +17,10 @@
 .content {
   position: relative;
   z-index: 1;
-  color: aliceblue;
+  color: white;
+}
+
+h1 {
+  font-family: 'Nosifer', cursive;
+  font-size: 50px;
 }
