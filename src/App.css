@@ -39,7 +39,8 @@ h1 {
 
 .github-logo,
 .linkdin-logo {
-  margin: 0 10px; /* Adjust the margin as needed */
+  margin: 0 8px;
+  margin-top: 5px;
 }
 
 .github-logo img {
