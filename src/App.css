@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nosifer&family=Parisienne&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lora&display=swap');
 
 .App {
   text-align: center;
@@ -23,13 +23,13 @@
 }
 
 h1 {
-  font-family: 'Nosifer', cursive;
+  font-family: 'Castoro Titling', cursive;
   font-size: 50px;
 }
 
 h3 {
   margin-top: -30px;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 30px;
 }
 
@@ -60,5 +60,27 @@ h3 {
 .linkdin-logo img {
   height: 25px;
   width: 25px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  margin-right: 50%;
+  margin-top: -20%;
+}
+
+.projects {
+  margin-top: -20%;
+}
+
+.words {
+  background: rgba(48, 49, 48, 0.3);
+  border-radius: 15px;
+  font-family: 'Lora', serif;
+  justify-content: left;
 }
 
