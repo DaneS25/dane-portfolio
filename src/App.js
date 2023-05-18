@@ -58,6 +58,7 @@ export default function App() {
       </div>
       <div className="content">
         <h1>Dane Sorensen</h1>
+        <h3>Developer</h3>
         {/* Additional content */}
         <div className='profile-pic'>
           <img src='https://scontent.fwlg3-1.fna.fbcdn.net/v/t1.15752-9/345864190_771498904356393_3778074519811791421_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-EQmBzgxgd4AX9sGgpQ&_nc_ht=scontent.fwlg3-1.fna&oh=03_AdQE5yx9fEJMwegyAagWJeNsyKdJ2Z_qofCBTUlBG8C2kw&oe=648BFF54' alt='profile'></img>

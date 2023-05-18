@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nosifer&family=Parisienne&family=Sacramento&display=swap');
+
 .App {
   text-align: center;
   position: relative;
@@ -25,7 +27,14 @@ h1 {
   font-size: 50px;
 }
 
+h3 {
+  margin-top: -30px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+}
+
 .profile-pic img {
+  margin-top: -20px;
   height: 15%;
   width: 15%;
   border-radius: 50%;
