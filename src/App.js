@@ -58,7 +58,7 @@ export default function App() {
       </div>
       <div className="content">
         <h1>Dane Sorensen</h1>
-        <h3>Web Developer</h3>
+        <h3>Developer Portfolio</h3>
         {/* Additional content */}
         <div className='profile-pic'>
           <img src='https://scontent.fwlg3-1.fna.fbcdn.net/v/t1.15752-9/345864190_771498904356393_3778074519811791421_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=-EQmBzgxgd4AX9sGgpQ&_nc_ht=scontent.fwlg3-1.fna&oh=03_AdQE5yx9fEJMwegyAagWJeNsyKdJ2Z_qofCBTUlBG8C2kw&oe=648BFF54' alt='profile'></img>
@@ -78,15 +78,23 @@ export default function App() {
         <div className='contentContainer'>
           <div className='about'>
             <h1>about me</h1>
-            <p className='words'>
-              Passionate about web development & desgin. <br></br>
-              Studied at Otago Polytechnic. <br></br>
-              Graduated with the Bacholar of Information Technology.
-            </p>
+              <p className='words'>
+                28 y/o Developer. <br></br>
+                Otago Polytechnic, BIT Graduate <br></br>
+                Motivated, Passionate
+              </p>
           </div>
           <div className='projects'>
             <h1>projects</h1>
+              <div className='list'>
+                <a href='https://todo-dane.web.app/'>
+                  <p>AdvAppDev Project 1</p>  
+                </a>
+              </div>
           </div>
+        </div>
+        <div className='descriptionContainer'>
+
         </div>
       </div>
     </div>
